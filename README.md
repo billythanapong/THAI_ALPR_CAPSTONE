@@ -2,12 +2,6 @@
 
 # CAPSTONE : THAI Automatic License Plate Recognition (ALPR) 
 
-### Contents:
-- [Problem Statement](#Problem-Statement)
-- [Executive Summary](#Executive-Summary)
-- [Conclusions and Recommendations](#Conclusions-and-Recommendations)
-- [Further Improvements](#Further-Improvements) 
-
 ### Problem Statement 
 
 The increasing of cumulative number of cars in every years may cause the difficulty to manage and control each car thoroughly. Should it be better to have system that can help either orginization or society to maintain the congestion of cars. Also, ALPR system can be used as toll payment system, parking system, parking entrance, etc.
@@ -26,6 +20,7 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
+3. Caution : Each relative path located in code block must be changed to your local computer path
 
 ### Approach :  
 To create THAI ALPR Model due to the limitation of Thai license plate dataset
