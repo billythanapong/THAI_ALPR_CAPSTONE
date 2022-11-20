@@ -27,24 +27,36 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-
 ### Approach :  
+To create THAI ALPR Model due to the limitation of Thai license plate dataset
+- Gather the images from **Roboflow** and  **Kaggle** > 1000 images with the label files
+- This project use YOLOv5 to train the model and EasyOCR to segment the characters from the license plate which is only allow 'TH' language in this project.
+- Using Opencv to offer the color shade options as user preferences.
+- Creating Streamlit web application
+
+From the developing of model section, give out these model option :
+
+
+<p align="center"><img src="images/table.png" /></p>
 
 
 
-### Executive Summary
 
+### Streamlit APP
 
+<p align="center"><img src="images/app.png" /></p>
 
+#### Application usage
+<p align="center"><img src="images/use.png" /></p>
 
-In this process we have walkthrough this step as shown in the figure.
-
-![modelflow](./data/modelflow.png)
 
  
 
 ### Conclusions and Recommendations
 
-This model could be used for effectively detecting depressed individuals on social media. Therefore, this study exhibits the model that can help reddit to detect depressed people who need emotional support and someone to help solving their problems. In Social Media posts which contain the words : thoughts, alive, felt, therapy should be flagged as cause for concern and notify the family so they can offer care and support.
+**Model summary**
+Yolov5s, epochs = 250, batch = 16, image size = 384 pixels Parameters : 7.01 M, Speed (ms) = 0.5, Size = 14.3 Mb
 
-However, the model can be improved by collecting more related data, including other platforms, and selecting the better classification model to increase the accuracy of prediction. 
+**Performance of model**
+- Detect license plates from **International** test set : Precision = 0.988, Recall = 0.98
+- Detect license plates from **Thai** test set : Precision = 0.96, Recall = 0.90
