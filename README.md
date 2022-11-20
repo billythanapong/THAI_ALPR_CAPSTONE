@@ -15,7 +15,9 @@ This leads our to the problem: **"How can we differentiate between depressed and
 ### Installation :
 - Simply run the command below to install the necessary packages
 
-''' pip install -r requirements.txt ''' 
+'''
+ pip install -r requirements.txt 
+''' 
 
 
 ### Usage : 
