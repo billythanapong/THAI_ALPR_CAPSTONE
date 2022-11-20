@@ -46,7 +46,7 @@ From the developing of model section, give out these model option :
 
  
 
-### Conclusions and Recommendations
+### Conclusions 
 
 **Model summary**
 - Yolov5s, epochs = 250, batch = 16, image size = 384 pixels Parameters : 7.01 M, Speed (ms) = 0.5, Size = 14.3 Mb
