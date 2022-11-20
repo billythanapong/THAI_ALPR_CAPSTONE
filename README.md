@@ -15,12 +15,17 @@ This leads our to the problem: **"How can we differentiate between depressed and
 ### Installation :
 - Simply run the command below to install the necessary packages
 
-'''
- pip install -r requirements.txt 
-''' 
+```
+pip install -r requirements.txt
+```
 
 
 ### Usage : 
+1. Clone this repository and install the requirements package
+2. Navigate to this directory and run the command : 
+```
+streamlit run app.py
+```
 
 
 ### Approach :  
